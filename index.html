@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Parallax</title>
 
-<!-- Bootstrap core CSS 
-<link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/yeti/bootstrap.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">   
+<!--<link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/yeti/bootstrap.min.css" rel="stylesheet">-->
 <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 <!-- Custom styles for this template -->
 <link href="css/styles.css" rel="stylesheet">
@@ -17,21 +17,12 @@
 </head>
 <body>
     <header>
-        <img src="img/LogoIcon.png" alt="CA logo" class="logo">
         <nav>
+                <img src="img/LogoIcon.png" alt="CA logo" class="logo">
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a id="about" href="#">About</a></li>
                  <li><a href="">Projects</a></li> 
-                <!--<li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown01">
-                          <a class="dropdown-item" href="#">iRecycle</a>
-                          <a class="dropdown-item" href="#">NASA</a>
-                          <a class="dropdown-item" href="#">Pill Bug</a>
-                          <a class="dropdown-item" href="#">iTinerant</a>
-                        </div>
-                      </li> -->
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
@@ -49,13 +40,17 @@
             <p>-John Maeda</p>
         </div>
 
-        <div class="home-about-textbox parallax--box">
-            <a name="about"></a>
-            <h2>ABOUT ME</h2>
-            <p>Lorem ipsum dolor sit amet <strong>consectetur</strong> adipisicing elit. Ullam quo fuga nihil eaque blanditiis fugit sunt! Quia, illum deserunt. Hic ut delectus et accusamus quas officia, soluta aspernatur neque alias?
-            </p>
-        </div>
-
+    <div class="container">
+        <section class="home-about">
+            <div class="home-about-textbox parallax--box">
+                <a name="about"></a>
+                <h2>ABOUT ME</h2>
+                <p>Lorem ipsum dolor sit amet <strong>consectetur</strong> adipisicing elit. Ullam quo fuga nihil eaque blanditiis fugit sunt! Quia, illum deserunt. Hic ut delectus et accusamus quas officia, soluta aspernatur neque alias?
+                </p>
+                <a href="" class="button button-accent">learn more</a>
+            </div>
+        </section>
+    </div>
     
 
         <div class="portfolio">
@@ -64,8 +59,8 @@
         <figure class="port-item data-scroll">
             <img src="img/" alt="portfolio item">
             <figcaption class=port-desc">
-                <p>Project title</p>
-                <a href="" class="button button-accent">view more</a>
+                <p>iRecycle</p>
+                <a href="" class="button button-accent">details</a>
             </figcaption>
         </figure>
 
@@ -73,8 +68,8 @@
         <figure class="port-item">
             <img src="img/" alt="portfolio item">
             <figcaption class=port-desc">
-                <p>Project title</p>
-                <a href="" class="button button-accent">view more</a>
+                <p>NASA</p>
+                <a href="" class="button button-accent">details</a>
             </figcaption>
         </figure>
             
@@ -82,8 +77,8 @@
         <figure class="port-item">
             <img src="img/" alt="portfolio item">
             <figcaption class=port-desc">
-                <p>Project title</p>
-                <a href="" class="button button-accent">view more</a>
+                <p>Pill Bug</p>
+                <a href="" class="button button-accent">details</a>
             </figcaption>
         </figure>            
 
@@ -91,8 +86,8 @@
         <figure class="port-item">
             <img src="img/" alt="portfolio item">
             <figcaption class=port-desc">
-                <p>Project title</p>
-                <a href="" class="button button-accent">view more</a>
+                <p>iTinerant</p>
+                <a href="" class="button button-accent">details</a>
             </figcaption>
         </figure>    
 
@@ -104,10 +99,20 @@
         </p>
         <form>
             <p>Form to leave me message</p>
+            <a href="" class="button button-accent">send</a>
         </form>
     </div>
 
+    <footer>
+        <div>
+            <i class="fab fa-facebook-f fa-3x"></i>
+            <i class="fab fa-instagram fa-3x"></i>
+            <i class="fab fa-twitter fa-3x"></i>
+            <i class="fab fa-linkedin-in fa-3x"></i>
+        </div>
+    </footer> 
 </section>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
