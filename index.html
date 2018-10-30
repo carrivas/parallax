@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Parallax</title>
+    <title>Carlos Arrivas</title>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">   
 <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/yeti/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
 <body>
         <!-- <iframe width="438" height="930" src="https://invis.io/UTN3ENJVCNR" frameborder="0" allowfullscreen></iframe> -->
     <header>
-        <nav>
+        <nav class="navbar fixed-top">
             <!--    <img src="img/LogoIcon.png" alt="CA logo" class="logo"> -->
             <ul>
                 <li><a class="nav-links" href="#" data-link-to="#top">Home</a></li>
@@ -72,7 +72,7 @@
             </div>
             <figcaption class="port-desc">
             <h3>URRC</h3>
-            <a href="https://projects.invisionapp.com/d/main#/projects/boards/6275589" class="button button-accent">details</a>
+            <a href="https://projects.invisionapp.com/d/main#/projects/boards/6275589" class="button button-accent" target="_blank">details</a>
             </figcaption>
             
         </figure>
@@ -95,18 +95,30 @@
             </div>
             <figcaption class="port-desc">
             <h3>Pill Bug</h3>
-            <a href="https://invis.io/UTN3ENJVCNR" class="button button-accent">details</a>
+            <!-- <a href="https://projects.invisionapp.com/d/main#/projects/boards/6182687" class="button button-accent">details</a> -->
+            <button type="button" class="button button-accent" data-toggle="modal" data-target="#PillBug">highlights</button>
+
+            <div class="modal fade" id="PillBug" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <iframe width="438" height="930" src="https://invis.io/UTN3ENJVCNR" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
             </figcaption>
         </figure>
 
         <!-- portfolio item 04-->
         <figure class="port-item">
             <div data-aos="zoom-in" class="thumbnail">
-                <img src="img/LogoIcon.png" alt="portfolio item">
+                <img src="img/iTinerant.png" alt="portfolio item">
             </div>    
             <figcaption class="port-desc">
                 <h3>iTinerant</h3>
-                <a href="" class="button button-accent">details</a>
+                <a href="https://invis.io/UMOUGVO34JW" class="button button-accent">details</a>
             </figcaption>
         </figure>
     </div> 
@@ -138,16 +150,19 @@
               </form>
             
               <!-- Modal should trigger when "Send Email" is clicked.-->
-              <div class="modal fade" id="send" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal fade" id="send" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                 <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-body">
-                    test
-                    </div>
+                    <div class="modal-content">
+                        <div class="modal-body">
+                                <p>Thank you for reaching out, I will be in touch soon!
+                                </p>
+                                <p>-Carlos    
+                                </p>
+                        </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                  </div>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
                 </div>
                 </div>
           
@@ -157,7 +172,7 @@
     </div>
 
     <footer>
-        <div>
+        <div class="fab">
             <i class="fab fa-facebook-f fa-3x"></i>
             <i class="fab fa-instagram fa-3x"></i>
             <!-- <i><a class=href="http://carrivas.wixsite.com/vfx-artist"><img src="img/yourHero.png"></a></i> -->

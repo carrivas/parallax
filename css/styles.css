@@ -136,6 +136,7 @@ header {
 
 nav ul {
     margin:0;
+    margin-left: 4.25cm;
     padding: 0;
     padding-right: .24cm;
     list-style: none;
@@ -162,6 +163,11 @@ nav a:focus {
     color: purple;
     text-decoration: none;
 }
+
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
 
 /* hero-home
 ----------- */
@@ -245,7 +251,8 @@ footer {
     left: 0;
     right: 0;   
     display: inline-block;
-    margin-top: .5cm;
+    /* margin-top: .5cm;
+    padding-top: .5cm; */
     padding-bottom: .5cm;
 
 }
