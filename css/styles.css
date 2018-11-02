@@ -42,6 +42,13 @@ h3 {
     font-size: 1.5rem;
     margin: .5cm;
 }
+
+h4 {
+    font-weight: bolder;
+    font-size: 1rem;
+    margin: .5cm;
+}
+
 p {
     font-size: 1.3rem;
 }
@@ -130,15 +137,16 @@ header {
     position: absolute;
     left: 0;
     right: 0;   
-    margin-top: 2em;
 
 }
 
 nav ul {
     margin:0;
-    margin-left: 4.25cm;
+    margin-left: 4.45cm;
     padding: 0;
     padding-right: .24cm;
+    padding-top: .5cm;
+    padding-bottom: .5cm;
     list-style: none;
     
 }
@@ -164,17 +172,24 @@ nav a:focus {
     text-decoration: none;
 }
 
-.navbar-fixed-top.scrolled {
+.navbar 
+{
+    /* background-color: #0012BE; */
+    background-image: linear-gradient(to bottom, rgba(0,18,190,1), rgba(0,18,190,0));
+    /* background-image: linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,1)); */
+}
+/* .navbar-fixed-top.scrolled {
     background-color: #fff !important;
     transition: background-color 200ms linear;
-  }
+  } */
 
 /* hero-home
 ----------- */
 
 .home-hero {
-    background-image: url(../img/BackgroudVert.png);
-/*    background-image: linear-gradient(to bottom, #0012BE,#0F003D);   */
+    background-image: linear-gradient(to bottom, rgba(0,18,190,.95), rgba(0,18,190,.8)), url(../img/BackgroundVertGrey.png);
+    /* position: relative; */
+    /* background-image: linear-gradient(to bottom, rgba(0,18,190,1), rgba(15,0,61,1)); */
 /*    background-attachment: fixed; */
       background-size: cover;  
 /*    background-position: center;*/
@@ -183,8 +198,18 @@ nav a:focus {
     color:white;
     height: 100%;
     scroll-behavior: smooth;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 
+    /* &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to bottom, rgba(0,18,190,.91), rgba(15,0,61,.89));
+        opacity: .6; 
+      } */
 }
 .home-about-textbox  {
     width: 45%;
@@ -243,8 +268,8 @@ nav a:focus {
     color: darkblue;
 }
 
-.form-group {}
-     12px;
+/* .form-group {}
+     12px; */
 
 footer {
  
@@ -254,5 +279,9 @@ footer {
     /* margin-top: .5cm;
     padding-top: .5cm; */
     padding-bottom: .5cm;
+}
 
+.fab {
+    margin: 0 auto;
+    padding: .5cm;
 }
