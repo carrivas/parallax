@@ -1,7 +1,14 @@
 // YOUR CODE HERE
 // Event listener for form submission
 $("#sendEmail").click(function(){
-  submitForm();
+  var firstName = $("#firstName").val();
+  var email = $("#email").val();
+  var message = $("#message").val();
+  if (firstName && email && message) {
+    submitForm();
+  } else {
+    alert('Help');
+  }
 });
 //   // Save the first name as a variable
 // var firstName = $("#firstName").val();
@@ -15,7 +22,7 @@ $("#sendEmail").click(function(){
 // // show message has been sent
 // // if any input is missing
 // // show inputs needed to complete
-// if (firstName) {
+// if (firstName && email && message) {
 //     // Set HTML of .modal-body
 // $(".modal-body").html("Thank you, " + firstName + ".  Your message has been sent!");
 // }
@@ -32,6 +39,7 @@ function submitForm() {
       // if everything is good
       if(data.id){
         alert('Message Sent.  Thanks!');
+        $(".form-control").val("");
         //if something is wrong
       }else{
         alert('Message did not send.  Try again!');
