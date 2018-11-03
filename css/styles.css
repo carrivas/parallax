@@ -33,24 +33,30 @@ h1 {
 
 h2 {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2em;
     margin: .5cm;
+    text-transform: uppercase;
 }
 
 h3 {
     font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     margin: .5cm;
 }
 
 h4 {
     font-weight: bolder;
-    font-size: 1rem;
+    font-size: 1em;
     margin: .5cm;
+    text-transform: uppercase;
+}
+
+p1 {
+    font-size: 1em;
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 1.3em;
 }
 
 .title {
@@ -187,7 +193,7 @@ nav a:focus {
 ----------- */
 
 .home-hero {
-    background-image: linear-gradient(to bottom, rgba(0,18,190,.95), rgba(0,18,190,.8)), url(../img/BackgroundVertGrey.png);
+    background-image: linear-gradient(to bottom, rgba(0,18,190,.95), rgba(0,18,190,.89)), url(../img/BackgroundVertGrey.png);
     /* position: relative; */
     /* background-image: linear-gradient(to bottom, rgba(0,18,190,1), rgba(15,0,61,1)); */
 /*    background-attachment: fixed; */
@@ -219,15 +225,19 @@ nav a:focus {
     margin: 0 auto;
     margin-top: 2cm;
     border-top: 1px solid white;
-
-
+    border-bottom: 1px solid white;
 }
+
+/* .my-process {
+    background-image: url(img/DoubleDiamond.png);
+    z-index: -1;
+} */
 
 .portfolio {
 /*    background-color: blueviolet; */
 /*    opacity: .2;  */
     top: 0em;
-    width: 45%;
+    width: 80%;
     margin: 0 auto;
     margin-bottom: .5cm;
     padding: 1cm;
@@ -236,7 +246,7 @@ nav a:focus {
 /*    border: 1px solid white;   */ 
 /*    box-shadow: -2px 2px 8px 2px darkblue;    */   
     border-top: 1px solid white;
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
 }
 
 .port-item {
@@ -246,6 +256,14 @@ nav a:focus {
     border: 1px solid white;    
     color: white;
     border-bottom: 1px solid white;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }
 
 .thumbnail {
