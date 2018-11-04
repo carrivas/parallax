@@ -21,7 +21,7 @@ body {
 }        
 body::after {
     content: ' ';
-    background-image: linear-gradient(to bottom, rgba(0,18,190,.89), rgba(0,18,190,0.7));
+    background-image: linear-gradient(to bottom, rgba(0,18,190,.95), rgba(15,0,61,0.92));
     position: fixed;
     display: block;
     width: 100vw;
@@ -53,7 +53,7 @@ h1 {
 h2 {
     font-weight: bold;
     font-size: 2em;
-    margin: .5cm;
+    /* margin: .5cm; */
     text-transform: uppercase;
 }
 
@@ -170,7 +170,7 @@ nav ul {
     margin-left: 4.45cm;
     padding: 0;
     padding-right: .24cm;
-    padding-top: .5cm;
+    padding-top: .1cm;
     padding-bottom: .5cm;
     list-style: none;
     
@@ -200,7 +200,7 @@ nav a:focus {
 .navbar 
 {
     /* background-color: #0012BE; */
-    background-image: linear-gradient(to bottom, rgba(0,18,190,1), rgba(0,18,190,0));
+    background-image: linear-gradient(to bottom, rgba(0,18,190,1) , rgba(0,18,190,0));
     /* background-image: linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,1)); */
 }
 /* .navbar-fixed-top.scrolled {
@@ -213,7 +213,7 @@ nav a:focus {
 
 .home-about-textbox  {
     width: 45%;
-    padding: 1cm;
+    padding-top: 3.5cm;
     color: white;
 /*    margin-bottom: 2cm;   */
     margin: 0 auto;
@@ -233,9 +233,9 @@ nav a:focus {
     top: 0em;
     width: 80%;
     margin: 0 auto;
-    margin-bottom: .5cm;
-    padding: 1cm;
-    padding-bottom: 2cm;
+    margin-top: 3cm;
+    padding-top: 3cm;
+    padding-bottom: 1cm;
 /*    border-radius: 64px;  */
 /*    border: 1px solid white;   */ 
 /*    box-shadow: -2px 2px 8px 2px darkblue;    */   
@@ -244,12 +244,14 @@ nav a:focus {
 }
 
 .port-item {
-    margin-top: 1.5cm;
+    /* margin-top: 2cm; */
+    margin-bottom: 3cm;
     padding-top: 1cm; 
     /* border-radius: 8px; */
     border: 1px solid white;    
-    color: white;
-    border-bottom: 1px solid white;
+    color: blue;
+    background-color: white;
+    /* border-bottom: 1px solid white; */
 }
 
 .left {
