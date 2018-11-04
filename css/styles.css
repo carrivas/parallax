@@ -53,20 +53,20 @@ h1 {
 
 h2 {
     font-weight: bold;
-    font-size: 24pt;
+    font-size: 28pt;
     /* margin: .5cm; */
     text-transform: uppercase;
 }
 
 h3 {
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 20pt;
     margin: .5cm;
     /* text-transform: uppercase; */
 }
 
 h4 {
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 16pt;
     margin: .5cm;
     /* text-transform: uppercase; */
@@ -247,7 +247,7 @@ nav a:focus {
     width: 90%;
     margin: 0 auto;
     /* margin-top: 3cm; */
-    padding-top: 3.25cm;
+    padding-top: 3.5cm;
     /* padding-bottom: 1cm; */
 /*    border-radius: 64px;  */
 /*    border: 1px solid white;   */ 
@@ -257,9 +257,9 @@ nav a:focus {
 }
 
 .port-item {
-    /* margin-top: 2cm; */
+    /* margin-top: .5cm; */
     margin-bottom: 3cm;
-    padding-top: .25cm; 
+    padding-top: 1cm; 
     
     border-radius: 8px;
     border: 2px solid white;    
@@ -269,8 +269,16 @@ nav a:focus {
     /* border-bottom: 1px solid white; */
 }
 
+.col-md-4 {
+    float: left;
+    /* border: 2px solid white;  */
+    /* padding: .5cm; */
+}
+
+
 .left {
     float: left;
+
 }
 
 .right {
@@ -326,8 +334,8 @@ footer {
 
 /* .logo {
     background-image: url(../img/LogoIcon.png);
-    /* position: center; */
-    /* background-size: contain;  */
+     position: center; 
+     background-size: contain; 
     margin: .5cm;
     padding: .5cm;
 }
@@ -335,8 +343,12 @@ footer {
 .logo:hover,
 .logo:focus {
     background-image: url(../img/LogoIcon2.png);
-    /* background-size: contain;  */
-    /* margin: 0 auto; */
+     background-size: contain;  
+    margin: 0 auto; 
     padding: .5cm;
-} */
+}  */
 
+.li {
+    /* list-style: none;
+    display: none; */
+}
