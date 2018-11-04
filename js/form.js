@@ -7,7 +7,7 @@ $("#sendEmail").click(function(){
   if (firstName && email && message) {
     submitForm();
   } else {
-    alert('Help');
+    alert("I'm sorry, some information is missing, please complete the form and resend");
   }
 });
 //   // Save the first name as a variable
@@ -38,11 +38,11 @@ function submitForm() {
   $.post("https://api.formbucket.com/f/buk_FUb5LCfdQtWdd8vYVeuJ6I5s", formData).done(function(data){
       // if everything is good
       if(data.id){
-        alert('Message Sent.  Thanks!');
+        alert('Thank you for reaching out, I will be in touch soon!');
         $(".form-control").val("");
         //if something is wrong
       }else{
-        alert('Message did not send.  Try again!');
+        alert("I'm sorry, some information is missing, please complete the form and resend");
       }
   });
 }

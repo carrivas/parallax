@@ -10,10 +10,11 @@
 body {
     margin:0;
     font-family: 'cairo';
+    font-size: 14pt;
     text-align: center;
     background-image: url(../img/BackgroundVertGrey.png);
     background-size: cover;  
-    padding: 7cm 0;
+    padding: 6cm 0;
     padding-bottom: 0cm;
     color:white;
     height: 100%;
@@ -21,7 +22,7 @@ body {
 }        
 body::after {
     content: ' ';
-    background-image: linear-gradient(to bottom, rgba(0,18,190,.95), rgba(15,0,61,0.92));
+    background-image: linear-gradient(to bottom, rgba(0,18,190,.93), rgba(15,0,61,0.90));
     position: fixed;
     display: block;
     width: 100vw;
@@ -52,36 +53,38 @@ h1 {
 
 h2 {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 24pt;
     /* margin: .5cm; */
     text-transform: uppercase;
 }
 
 h3 {
-    font-weight: bolder;
-    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 20pt;
     margin: .5cm;
+    /* text-transform: uppercase; */
 }
 
 h4 {
-    font-weight: bolder;
-    font-size: 1em;
+    font-weight: bold;
+    font-size: 16pt;
     margin: .5cm;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+   
 }
 
-p1 {
+/* p1 {
     font-size: 1em;
-}
+} */
 
 p {
-    font-size: 1.3em;
+    font-size: 14pt;
 }
 
 .title {
     font-size: 2.5rem;
     margin: 0 auto;
-    border-top : 1px solid white;
+    border-top : 2px solid white;
     margin-top: .5cm;
     padding-top: .5cm;
     margin-bottom: 1cm;
@@ -91,7 +94,7 @@ p {
     font-style: italic;
     font-size: 1.3rem;
     margin-top: 1cm;
-    margin-bottom: 3cm;
+    margin-bottom: 4cm;
 }
 
 i {
@@ -107,7 +110,6 @@ i {
     padding: .5em 1.75em;
     border-radius: 24px;
     
-  
 }
 
 .button-accent {
@@ -123,27 +125,35 @@ i {
 .button-accent:hover,
 .button-accent:focus {
     background: white;
-    color: purple;
-    box-shadow: 0 0 2em 0 purple;
+    color: palevioletred;
+    box-shadow: 0 0 12px 0 palevioletred;
     text-decoration: none;
 }
 
-.button-pyx:hover,
-.button-pyx:focus {
-    background: lightgoldenrodyellow;
-    color: orangered;
-    box-shadow: 0 0 2em 0 orangered;
+.button-prj:hover,
+.button-prj:focus {
+    /* background: rgb(33, 0, 131); */
+    background: white;
+    color:palevioletred;
+    box-shadow: 0 0 2px 0 palevioletred;
     text-decoration: none;
 }
 
-.button-pyx {
+.button-prj {
     background-color: #011DF3;
     color: white;
     margin-top: 2em;
     margin-bottom: 2em;
     font-weight: bold;
     font-size: 1rem;
+}
 
+.nav-links {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .5em 1.75em;
+    border-radius: 24px;
 }
 
 /* Parallax
@@ -167,9 +177,9 @@ header {
 
 nav ul {
     margin:0;
-    margin-left: 4.45cm;
+    margin-left: 4.58cm;
     padding: 0;
-    padding-right: .24cm;
+    padding-right: 0cm;
     padding-top: .1cm;
     padding-bottom: .5cm;
     list-style: none;
@@ -178,8 +188,8 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
 }
 
 nav a {
@@ -193,7 +203,7 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-    color: purple;
+    color: palevioletred;
     text-decoration: none;
 }
 
@@ -212,45 +222,50 @@ nav a:focus {
 ----------- */
 
 .home-about-textbox  {
-    width: 45%;
-    padding-top: 3.5cm;
+    width: 55%;
+    padding-top: 4cm;
+    padding-bottom: 2cm;
     color: white;
 /*    margin-bottom: 2cm;   */
     margin: 0 auto;
-    margin-top: 2cm;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
 }
 
-/* .my-process {
-    background-image: url(img/DoubleDiamond.png);
-    z-index: -1;
-} */
+.my-workflow {
+    padding-top: 4.5cm;
+    padding-bottom: 3cm;
+    font-size:20pt;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+}
 
 .portfolio {
 /*    background-color: blueviolet; */
 /*    opacity: .2;  */
     top: 0em;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-    margin-top: 3cm;
-    padding-top: 3cm;
-    padding-bottom: 1cm;
+    /* margin-top: 3cm; */
+    padding-top: 3.25cm;
+    /* padding-bottom: 1cm; */
 /*    border-radius: 64px;  */
 /*    border: 1px solid white;   */ 
 /*    box-shadow: -2px 2px 8px 2px darkblue;    */   
-    border-top: 1px solid white;
+    
     /* border-bottom: 1px solid white; */
 }
 
 .port-item {
     /* margin-top: 2cm; */
     margin-bottom: 3cm;
-    padding-top: 1cm; 
-    /* border-radius: 8px; */
-    border: 1px solid white;    
-    color: blue;
-    background-color: white;
+    padding-top: .25cm; 
+    
+    border-radius: 8px;
+    border: 2px solid white;    
+    color:rgb(33, 0, 131);
+    /* background-color: lightsteelblue; */
+    background-image: linear-gradient(to bottom, lightsteelblue , white);
     /* border-bottom: 1px solid white; */
 }
 
@@ -263,8 +278,8 @@ nav a:focus {
 }
 
 .thumbnail {
-    max-width: 150px;
-    min-width: 150px;
+    max-width: 100px;
+    min-width: 100px;
     margin: 0 auto;
 }
 
@@ -272,7 +287,10 @@ nav a:focus {
     width: 30%;
     color: white;
     margin: 0 auto; 
-    border-bottom: 1px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding-top: 4.5cm;
+
     /* margin-top: 1cm; */
 /*    border-radius: 48px;
     border: 1px solid white; */
@@ -282,8 +300,14 @@ nav a:focus {
     color: darkblue;
 }
 
-/* .form-group {}
-     12px; */
+.form-group {
+    border-radius: 2px;
+    border: 1px solid white;    
+    color:rgb(33, 0, 131);
+    background-color: lightsteelblue;
+    /* background-image: linear-gradient(to bottom, lightsteelblue , white); */
+}
+     
 
 footer {
  
@@ -292,10 +316,27 @@ footer {
     display: inline-block;
     /* margin-top: .5cm;
     padding-top: .5cm; */
-    padding-bottom: .5cm;
+    /* padding-bottom: 1cm; */
 }
 
 .fab {
     margin: 0 auto;
     padding: .5cm;
 }
+
+/* .logo {
+    background-image: url(../img/LogoIcon.png);
+    /* position: center; */
+    /* background-size: contain;  */
+    margin: .5cm;
+    padding: .5cm;
+}
+
+.logo:hover,
+.logo:focus {
+    background-image: url(../img/LogoIcon2.png);
+    /* background-size: contain;  */
+    /* margin: 0 auto; */
+    padding: .5cm;
+} */
+
