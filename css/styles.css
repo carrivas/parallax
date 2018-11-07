@@ -84,7 +84,7 @@ h5 {
 } */
 
 p {
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 .title {
@@ -285,7 +285,7 @@ nav a:focus {
 .col-md-6 {
     margin: 0 auto;
     padding: 0;
-    display: inline-block;
+    /* display: inline-block; */
     
 }
 
@@ -296,6 +296,10 @@ nav a:focus {
     /* padding: 1cm; */ 
 }
 
+.toprow {
+    padding-left: 2cm;
+    padding-right: 2cm;
+}
 /* .col-md-1.left {
     padding-left: 2cm;
 }
@@ -305,9 +309,10 @@ nav a:focus {
 
 .description {
     margin: 0 auto;
-    /* padding: 2cm; */
+    /* padding: .5cm; */
     width: 80%;
     text-align: justify;
+    font-size: 12pt;
 }
 .thumbnail {
     /* max-width: 100px;
