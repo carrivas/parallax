@@ -59,14 +59,14 @@ h2 {
 }
 
 h3 {
-    /* font-weight: bold; */
+    font-weight: bolder;
     font-size: 20pt;
     margin: .5cm;
     /* text-transform: uppercase; */
 }
 
 h4 {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 16pt;
     margin: .5cm;
     text-transform: uppercase;
@@ -149,8 +149,8 @@ i {
 .button-prj {
     background-color: #011DF3;
     color: white;
-    /* margin-top: .5cm; */
-    margin-bottom: .5cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
     font-weight: bold;
     font-size: 1rem;
     border: #011DF3;
@@ -285,17 +285,25 @@ nav a:focus {
 .col-md-6 {
     margin: 0 auto;
     padding: 0;
+    display: inline-block;
     
 }
 
 .col-md-1 {
     margin: 0 auto;
-    padding: .5cm;
-    
+    /* padding: 1cm; */ 
 }
+
+/* .col-md-1.left {
+    padding-left: 2cm;
+}
+.col-md-1.right {
+    padding-right: 2cm;
+} */
+
 .description {
     margin: 0 auto;
-    padding: .4cm;
+    /* padding: 2cm; */
     width: 80%;
 }
 .thumbnail {
