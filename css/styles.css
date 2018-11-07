@@ -291,6 +291,7 @@ nav a:focus {
 
 .col-md-1 {
     margin: 0 auto;
+    padding: 0.1cm;
     /* padding: 1cm; */ 
 }
 
@@ -305,6 +306,7 @@ nav a:focus {
     margin: 0 auto;
     /* padding: 2cm; */
     width: 80%;
+    text-align: justify;
 }
 .thumbnail {
     /* max-width: 100px;
