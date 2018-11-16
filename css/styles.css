@@ -80,7 +80,7 @@ h5 {
 }
 
 h6 {
-    font-size: 16px;
+    font-size: 16pt;
 }
 
 p1 {
@@ -269,19 +269,21 @@ nav a:focus {
 
 #workflow {
     padding-top: 4.5cm;
+    border-bottom: 2px solid white;
 }
 
 .my-workflow {
     /* width: 80%; */
     margin: 0 auto;
+    padding-top: .5cm;
+    padding-left: 3cm;
     /* padding: 1cm; */
-    padding-bottom: 3.8cm;
-
+    padding-bottom: 1cm;
     text-transform: uppercase;
-    border-bottom: 2px solid white;
+    
 }
 .steps {
-    padding:.5cm;
+    padding:1cm;
    
 }
 
