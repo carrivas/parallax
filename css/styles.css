@@ -22,7 +22,7 @@ body {
 }        
 body::after {
     content: ' ';
-    background-image: linear-gradient(to bottom, rgba(0,18,190,.93), rgba(15,0,61,0.92));
+    background-image: linear-gradient(to bottom, rgba(0,18,190,.89), rgba(15,0,61,0.93));
     position: fixed;
     display: block;
     width: 100vw;
@@ -84,7 +84,7 @@ h6 {
 }
 
 p1 {
-    font-size: 18px;
+    font-size: 16pt;
 }
 
 p {
@@ -102,7 +102,7 @@ p {
 
 .quote {
     font-style: italic;
-    font-size: 1.3rem;
+    font-size: 16px;
     margin-top: 1cm;
     margin-bottom: 4cm;
 }
@@ -258,7 +258,7 @@ nav a:focus {
 
 .home-about-textbox  {
     width: 55%;
-    padding-top: 4cm;
+    padding-top: 6cm;
     padding-bottom: 2cm;
     color: white;
 /*    margin-bottom: 2cm;   */
@@ -269,6 +269,7 @@ nav a:focus {
 
 #workflow {
     padding-top: 4.5cm;
+    padding-bottom: 3cm;
     border-bottom: 2px solid white;
 }
 
@@ -276,14 +277,14 @@ nav a:focus {
     /* width: 80%; */
     margin: 0 auto;
     padding-top: .5cm;
-    padding-left: 3cm;
+    padding-left: 3.5cm;
     /* padding: 1cm; */
-    padding-bottom: 1cm;
+    /* padding-bottom: .5cm; */
     text-transform: uppercase;
     
 }
 .steps {
-    padding:1cm;
+    padding:.75cm;
    
 }
 
@@ -348,7 +349,7 @@ nav a:focus {
 
 
 .description {
-    padding: .5cm;
+    padding: .4cm;
     text-align: justify;
     font-size: 16px;
 }
@@ -365,7 +366,7 @@ nav a:focus {
     margin: 0 auto; 
     border-top: 2px solid white;
     border-bottom: 2px solid white;
-    padding-top: 4.5cm;
+    padding-top: 4cm;
     /* margin-top: 1cm; */
 /*    border-radius: 48px;
     border: 1px solid white; */
