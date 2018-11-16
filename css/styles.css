@@ -121,6 +121,7 @@ i {
 .button-accent {
     background-color: white;
     color: purple;
+    border: purple;
     /* box-shadow: 0 0 24px 0 purple; */
     margin-top: 2em;
     margin-bottom: 2em;
@@ -133,7 +134,7 @@ i {
     background: #011DF3;
     border: #011DF3;
     color: white;
-    /* text-decoration: none; */
+    text-decoration: none;
 }
 
 .button-prj {
@@ -351,7 +352,6 @@ nav a:focus {
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     padding-top: 4.5cm;
-
     /* margin-top: 1cm; */
 /*    border-radius: 48px;
     border: 1px solid white; */
@@ -371,7 +371,6 @@ nav a:focus {
      
 
 footer {
- 
     left: 0;
     right: 0;   
     display: inline-block;
