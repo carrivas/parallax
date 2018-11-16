@@ -38,7 +38,7 @@ img {
     height: auto;
 }
 .container {
-    width: 75%;
+    /* width: 75%; */
     margin: 0 auto;
    
 }
@@ -77,6 +77,10 @@ h5 {
     font-size: 16pt;
     margin: .2cm;
     /* text-transform: uppercase; */
+}
+
+h6 {
+    font-size: 16px;
 }
 
 p1 {
@@ -208,7 +212,7 @@ header {
 
 nav ul {
     margin:0;
-    margin-left: 4.58cm;
+    margin-left: 3.58cm;
     padding: 0;
     padding-right: 0cm;
     padding-top: .1cm;
@@ -227,7 +231,7 @@ nav a {
     font-weight: 900;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16pt;
+    font-size: 18pt;
     color: white;
     transition: all ease-in-out 250ms;
 }
@@ -263,14 +267,22 @@ nav a:focus {
     border-bottom: 2px solid white;
 }
 
-.my-workflow {
-    width: 80%;
-    margin: 0 auto;
+#workflow {
     padding-top: 4.5cm;
-    padding-bottom: 2.55cm;
-    font-size:20pt;
+}
+
+.my-workflow {
+    /* width: 80%; */
+    margin: 0 auto;
+    /* padding: 1cm; */
+    padding-bottom: 3.8cm;
+
     text-transform: uppercase;
     border-bottom: 2px solid white;
+}
+.steps {
+    padding:.5cm;
+   
 }
 
 .portfolio {
