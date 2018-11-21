@@ -148,39 +148,40 @@ i {
     margin-bottom: .5cm;
     font-weight: bold;
     font-size: 1rem;
-    border: #011DF3;
+    border: .5px solid #011DF3;
 }
 
 .button-prj:hover,
 .button-prj:focus {
     /* background: rgb(33, 0, 131); */
     background: white;
-    color:purple;
-    /* border: 1px solid purple; */
-    box-shadow: 0 0 2px 0 purple;
+    color:#011DF3;
+    border: .5px solid #011DF3;
+    /* box-shadow: 0 0 2px 0 purple; */
     text-decoration: none;
 }
 
 .button-pres {
-    /* background: white; */
+    background: white;
     color:purple;
     /* margin-top: .5cm; */
     margin-bottom: .5cm;
+    margin-right: .5cm;
     font-weight: bold;
     font-size: 1rem;
-    text-decoration: underline;
+    text-decoration: none;
     /* border: white; */
     /* box-shadow: 0 0 2px 0 purple; */
-    /* border: 1px solid purple; */
+    border: .5px solid purple;
 }
 
 .button-pres:hover,
 .button-pres:focus {
-    color:#011DF3;
-    /* border: 2px solid lightblue; */
+    color:white;
+    border: .5px solid purple;
     /* box-shadow: 0 0 2px 0 lightblue; */
     text-decoration: none;
-    /* background-color: lightblue; */
+    background-color: purple;
 }
 
 .nav-links {
@@ -268,6 +269,7 @@ nav a:focus {
 }
 
 #workflow {
+    border-top: 2px solid white;
     padding-top: 4.5cm;
     padding-bottom: 3cm;
     border-bottom: 2px solid white;
