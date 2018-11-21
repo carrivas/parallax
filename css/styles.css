@@ -268,26 +268,23 @@ nav a:focus {
     border-bottom: 2px solid white;
 }
 
-#workflow {
+#my-workflow2 {
     border-top: 2px solid white;
     padding-top: 4.5cm;
     padding-bottom: 3cm;
     border-bottom: 2px solid white;
 }
 
-.my-workflow {
-    /* width: 80%; */
-    margin: 0 auto;
-    padding-top: .5cm;
-    padding-left: 3.5cm;
-    /* padding: 1cm; */
-    /* padding-bottom: .5cm; */
-    text-transform: uppercase;
-    
-}
-.steps {
-    padding:.75cm;
-   
+.box {
+    float: left;
+    width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+    padding: 50px; /* if you want space between the images */
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .portfolio {
@@ -346,7 +343,7 @@ nav a:focus {
 }
 
 .prjbuttons {
-    margin-left:24cm;
+    margin-left:23cm;
 }
 
 
@@ -421,3 +418,15 @@ footer {
      list-style: none;
     display: none; 
 } */
+
+@media screen and (max-width: 600px) {
+    .prjbuttons {
+        margin-left:0cm;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .prjbuttons {
+        margin-left:30cm;
+    }
+}
