@@ -105,7 +105,7 @@ p {
     font-style: italic;
     font-size: 16px;
     margin-top: 1cm;
-    margin-bottom: 4.1cm;
+    margin-bottom: 6.1cm;
 }
 
 i {
@@ -168,7 +168,7 @@ i {
     color:purple;
     /* margin-top: .5cm; */
     margin-bottom: .5cm;
-    margin-left: .5cm;
+    /* margin-left: .5cm; */
     font-weight: bold;
     font-size: 1rem;
     text-decoration: underline;
@@ -317,7 +317,7 @@ nav a:focus {
 .port-item {
     padding: .2cm;
     margin-top: .5cm;
-    margin-bottom: 4cm;
+    margin-bottom: 2cm;
     border-radius: 4px;
     border: 2px solid white; 
     color:rgb(33, 0, 131);
@@ -371,7 +371,7 @@ nav a:focus {
 }
 
 .contact {
-    width: 30%;
+    width: 40%;
     color: white;
     margin: 0 auto; 
     border-top: 2px solid white;
@@ -402,6 +402,7 @@ footer {
     /* margin-top: .5cm;
     padding-top: .5cm; */
     /* padding-bottom: 1cm; */
+    margin-bottom: 1.6cm;
 }
 
 .fab {
@@ -430,25 +431,40 @@ footer {
     display: none; 
 } */
 
-@media screen and (min-width: 1440px) {
-    .prjbuttons {
-        margin-left:1000px;
-    }
+@media screen and (min-width: 1441px) {
+.prjbuttons {
+    margin-left:1000px;
+}
 }
 
 @media screen and (max-width: 1024px) {
-    .prjbuttons {
-        margin-left:430px;
-    }
+.prjbuttons {
+    margin-left:430px;
+}
+
+.title {
+    font-size: 18pt;
+}
+.contact {
+    width: 50%;
+}
+
 }
 @media screen and (max-width: 600px) {
-    .prjbuttons {
-        margin: 0px;
-    }
+.prjbuttons {
+    margin: 0px;
+}
+
+.title {
+    font-size: 16pt;
+}
+
+.contact {
+    width: 80%;
 }
 
 /* @media screen and (min-width:1200px) {
     .prjbuttons {
         margin-left:34cm;
-    }
-} */
+    }*/
+} 
