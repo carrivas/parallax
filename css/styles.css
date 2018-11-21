@@ -211,8 +211,8 @@ header {
 }
 
 nav ul {
-    margin:0;
-    margin-left: 3.58cm;
+    margin: 0 auto;
+    /* margin-left: 3.58cm; */
     padding: 0;
     padding-right: 0cm;
     padding-top: .1cm;
