@@ -56,6 +56,7 @@ h2 {
     font-size: 28pt;
     /* margin: .5cm; */
     text-transform: uppercase;
+    clear: both;
 }
 
 h3 {
@@ -146,6 +147,7 @@ i {
     color: white;
     /* margin-top: .5cm; */
     margin-bottom: .5cm;
+    /* margin-left: 10cm; */
     font-weight: bold;
     font-size: 1rem;
     border: .5px solid #011DF3;
@@ -162,26 +164,26 @@ i {
 }
 
 .button-pres {
-    background: white;
+    /* background: white; */
     color:purple;
     /* margin-top: .5cm; */
     margin-bottom: .5cm;
-    margin-right: .5cm;
+    margin-left: .5cm;
     font-weight: bold;
     font-size: 1rem;
-    text-decoration: none;
+    text-decoration: underline;
     /* border: white; */
     /* box-shadow: 0 0 2px 0 purple; */
-    border: .5px solid purple;
+    /* border: .5px solid purple; */
 }
 
 .button-pres:hover,
 .button-pres:focus {
-    color:white;
-    border: .5px solid purple;
+    color:#011DF3;
+    /* border: .5px solid purple; */
     /* box-shadow: 0 0 2px 0 lightblue; */
     text-decoration: none;
-    background-color: purple;
+    /* background-color: purple; */
 }
 
 .nav-links {
@@ -257,22 +259,22 @@ nav a:focus {
 /* hero-home
 ----------- */
 
-.home-about-textbox  {
+/* .home-about-textbox  {
     width: 55%;
     padding-top: 6cm;
     padding-bottom: 2cm;
     color: white;
-/*    margin-bottom: 2cm;   */
+   margin-bottom: 2cm;  
     margin: 0 auto;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
-}
+} */
 
-#my-workflow2 {
+#workflow {
     border-top: 2px solid white;
     padding-top: 4.5cm;
-    padding-bottom: 3cm;
-    border-bottom: 2px solid white;
+    /* padding-bottom: 3cm; */
+    /* border-bottom: 2px solid white; */
 }
 
 .box {
@@ -285,9 +287,11 @@ nav a:focus {
     content: "";
     clear: both;
     display: table;
-}
+} 
 
 .portfolio {
+    clear: both;
+    border-top: 2px solid white;
 /*    background-color: blueviolet; */
 /*    opacity: .2;  */
     top: 0em;
@@ -311,8 +315,8 @@ nav a:focus {
     color:rgb(33, 0, 131);
     background-color: white;
     background-image: linear-gradient(to bottom, lightsteelblue , white);
-
 }
+
 
 /* .captions {
     background-color: white;
@@ -343,9 +347,9 @@ nav a:focus {
 }
 
 .prjbuttons {
-    margin-left:23cm;
+    justify-content: center;
+    margin-left:800px;
 }
-
 
 .description {
     padding: .4cm;
@@ -419,14 +423,25 @@ footer {
     display: none; 
 } */
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 1440px) {
     .prjbuttons {
-        margin-left:0cm;
+        margin-left:1000px;
     }
 }
 
-@media screen and (min-width:1045px) {
+@media screen and (max-width: 1024px) {
+    .prjbuttons {
+        margin-left:430px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .prjbuttons {
+        margin: 0px;
+    }
+}
+
+/* @media screen and (min-width:1200px) {
     .prjbuttons {
         margin-left:34cm;
     }
-}
+} */
