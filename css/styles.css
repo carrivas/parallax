@@ -14,7 +14,7 @@ body {
     text-align: center;
     background-image: url(../img/BackgroundVertGrey.png);
     background-size: cover;  
-    padding: 6cm 0;
+    padding: 7cm 0;
     padding-bottom: 0cm;
     color:white;
     height: 100%;
@@ -105,7 +105,7 @@ p {
     font-style: italic;
     font-size: 16px;
     margin-top: 1cm;
-    margin-bottom: 6.1cm;
+    margin-bottom: 5.1cm;
 }
 
 i {
@@ -272,9 +272,13 @@ nav a:focus {
 
 #workflow {
     border-top: 2px solid white;
-    padding-top: 4.5cm;
+    padding-top: 5cm;
     /* padding-bottom: 3cm; */
     /* border-bottom: 2px solid white; */
+}
+
+.my-workflow2 {
+    padding-top: 1cm;
 }
 
 .box {
@@ -287,7 +291,7 @@ nav a:focus {
     float: left;
     width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
     padding: 50px; /* if you want space between the images */
-    margin-bottom: 1.8cm;
+    margin-bottom: 2cm;
   }
 
   .clearfix::after {
