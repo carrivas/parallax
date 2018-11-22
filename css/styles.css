@@ -359,7 +359,7 @@ nav a:focus {
 
 .prjbuttons {
     justify-content: center;
-    margin-left:800px;
+    margin-left:753px;
 }
 
 .description {
@@ -437,11 +437,16 @@ footer {
 
 @media screen and (min-width: 1441px) {
 .prjbuttons {
-    margin-left:1000px;
+    margin-left:1200px;
 }
 }
 
 @media screen and (max-width: 1024px) {
+
+.nav-links {
+    padding: 0;
+}
+
 .prjbuttons {
     margin-left:430px;
 }
