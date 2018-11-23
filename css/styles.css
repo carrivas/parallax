@@ -306,7 +306,7 @@ nav a:focus {
 /*    background-color: blueviolet; */
 /*    opacity: .2;  */
     top: 0em;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     /* margin-top: 3cm; */
     padding-top: 3.4cm;
@@ -347,7 +347,7 @@ nav a:focus {
 
 
 .toprow {
-    padding: .5cm;
+    padding-top: .5cm;
     margin:.7cm;
     margin-bottom:.2cm;
 }
@@ -375,7 +375,7 @@ nav a:focus {
 }
 
 .contact {
-    width: 40%;
+    width: 35%;
     color: white;
     margin: 0 auto; 
     border-top: 2px solid white;
