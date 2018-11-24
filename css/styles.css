@@ -143,33 +143,29 @@ i {
 }
 
 .button-prj {
-    background-color: #011DF3;
-    color: white;
-    /* margin-top: .5cm; */
+    background: white;
+    color:purple;
+    border: .5px solid purple;
     margin-bottom: .5cm;
-    /* margin-left: 10cm; */
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 1rem;
-    border: .5px solid #011DF3;
 }
 
 .button-prj:hover,
 .button-prj:focus {
-    /* background: rgb(33, 0, 131); */
-    background: white;
-    color:#011DF3;
+    background-color: #011DF3;
+    color: white;
     border: .5px solid #011DF3;
-    /* box-shadow: 0 0 2px 0 purple; */
     text-decoration: none;
 }
 
 .button-pres {
     /* background: white; */
-    color:purple;
+    color:#011DF3;
     /* margin-top: .5cm; */
     margin-bottom: .5cm;
     /* margin-left: .5cm; */
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 1rem;
     text-decoration: underline;
     /* border: white; */
@@ -179,7 +175,7 @@ i {
 
 .button-pres:hover,
 .button-pres:focus {
-    color:#011DF3;
+    color:purple;
     /* border: .5px solid purple; */
     /* box-shadow: 0 0 2px 0 lightblue; */
     text-decoration: none;
@@ -272,14 +268,14 @@ nav a:focus {
 
 #workflow {
     border-top: 2px solid white;
-    padding-top: 5cm;
+    padding-top: 4.5cm;
     /* padding-bottom: 3cm; */
     /* border-bottom: 2px solid white; */
 }
 
-.my-workflow2 {
-    padding-top: 1cm;
-}
+/* .my-workflow2 {
+    padding-top: 0;
+} */
 
 .box {
     float: left;
@@ -406,12 +402,13 @@ footer {
     /* margin-top: .5cm;
     padding-top: .5cm; */
     /* padding-bottom: 1cm; */
-    margin-bottom: 1.6cm;
+    /* margin-bottom: .5cm; */
 }
 
 .fab {
     margin: 0 auto;
     padding: .5cm;
+    padding-bottom: .3cm;
 }
 
 /* .logo {
