@@ -3,8 +3,6 @@
 * {
     box-sizing: border-box;
     transition: all ease-in-out 250ms;
-    
-    
 }
 
 body {
@@ -82,6 +80,7 @@ h5 {
 
 h6 {
     font-size: 16pt;
+    text-transform: uppercase;
 }
 
 p1 {
@@ -120,6 +119,7 @@ i {
     text-transform: uppercase;
     padding: .5em 1.75em;
     border-radius: 24px;
+    transition: all ease-in-out 250ms;
     
 }
 
@@ -132,6 +132,7 @@ i {
     margin-bottom: 2em;
     font-weight: bold;
     font-size: 1rem;
+    transition: all ease-in-out 250ms;
 
 }
 .button-accent:hover,
@@ -149,6 +150,7 @@ i {
     margin-bottom: .5cm;
     /* font-weight: bold; */
     font-size: 1rem;
+    transition: all ease-in-out 250ms;
 }
 
 .button-prj:hover,
@@ -161,13 +163,14 @@ i {
 
 .button-pres {
     /* background: white; */
-    color:#011DF3;
+    color:purple;
     /* margin-top: .5cm; */
     margin-bottom: .5cm;
     /* margin-left: .5cm; */
     /* font-weight: bold; */
     font-size: 1rem;
-    text-decoration: underline;
+    text-decoration: none;
+    transition: all ease-in-out 250ms;
     /* border: white; */
     /* box-shadow: 0 0 2px 0 purple; */
     /* border: .5px solid purple; */
@@ -175,10 +178,10 @@ i {
 
 .button-pres:hover,
 .button-pres:focus {
-    color:purple;
+    color:#011DF3;
     /* border: .5px solid purple; */
     /* box-shadow: 0 0 2px 0 lightblue; */
-    text-decoration: none;
+    text-decoration: underline;
     /* background-color: purple; */
 }
 
@@ -188,6 +191,8 @@ i {
     text-transform: uppercase;
     padding: .5em 1.75em;
     border-radius: 24px;
+    transition: all ease-in-out 250ms;
+    font-weight: 500;
 }
 
 /* Parallax
@@ -227,7 +232,7 @@ nav li {
 }
 
 nav a {
-    font-weight: 900;
+    /* font-weight: 900; */
     text-decoration: none;
     text-transform: uppercase;
     font-size: 18pt;
@@ -280,7 +285,7 @@ nav a:focus {
 .box {
     float: left;
     width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
-    padding: 50px; /* if you want space between the images */
+    padding: 30px; /* if you want space between the images */
   }
 
   .boxbot {
@@ -343,7 +348,8 @@ nav a:focus {
 
 
 .toprow {
-    padding-top: .5cm;
+    padding: .5cm;
+    /* padding-right: .5cm; */
     margin:.7cm;
     margin-bottom:.2cm;
 }
@@ -355,18 +361,19 @@ nav a:focus {
 
 .prjbuttons {
     justify-content: center;
+    margin-top:.25cm;
     margin-left:753px;
 }
 
 .description {
-    padding-bottom: .35cm;
+    padding-bottom: .3cm;
     text-align: justify;
     font-size: 16px;
 }
 .thumbnail {
     /* max-width: 100px;
     min-width: 100px; */
-    width: 80%;
+    /* width: 80%; */
     margin: 0 auto;
 }
 
@@ -401,7 +408,7 @@ footer {
     display: inline-block;
     /* margin-top: .5cm;
     padding-top: .5cm; */
-    /* padding-bottom: 1cm; */
+    padding-bottom: .86cm;
     /* margin-bottom: .5cm; */
 }
 
@@ -409,7 +416,9 @@ footer {
     margin: 0 auto;
     padding: .5cm;
     padding-bottom: .3cm;
+
 }
+
 
 /* .logo {
     background-image: url(../img/LogoIcon.png);
