@@ -9,7 +9,7 @@
 
 body {
     margin:0;
-    font-family: 'cairo';
+    font-family: 'avenir';
     font-size: 14pt;
     text-align: center;
     background-image: url(../img/BackgroundVertGrey.png);
@@ -315,14 +315,14 @@ nav a:focus {
 }
 
 .port-item {
-    padding: .2cm;
-    margin-top: .5cm;
+    padding-top: 1px;
+    /* margin-top: .5cm; */
     margin-bottom: 2cm;
     border-radius: 4px;
-    border: 2px solid white; 
+    /* border: 2px solid white;  */
     color:rgb(33, 0, 131);
     background-color: white;
-    background-image: linear-gradient(to bottom, lightsteelblue , white);
+    /* background-image: linear-gradient(to bottom, lightsteelblue , white); */
 }
 
 /* .captions {
@@ -359,7 +359,7 @@ nav a:focus {
 }
 
 .description {
-    padding: .4cm;
+    padding-bottom: .35cm;
     text-align: justify;
     font-size: 16px;
 }
