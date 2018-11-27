@@ -107,9 +107,9 @@ p {
     margin-bottom: 5.1cm;
 }
 
-i {
+/* i {
     padding-left: .5cm;
-}
+} */
 
 /* buttons */
 
@@ -406,15 +406,16 @@ footer {
     left: 0;
     right: 0;   
     display: inline-block;
-    /* margin-top: .5cm;
-    padding-top: .5cm; */
+    /* margin-top: .5cm; */
+    padding-top: 1cm;
     padding-bottom: .86cm;
     /* margin-bottom: .5cm; */
 }
 
 .fab {
     margin: 0 auto;
-    padding: .5cm;
+    padding: .1cm;
+    padding-top: .5cm;
     padding-bottom: .3cm;
 
 }
