@@ -171,6 +171,7 @@ p {
     font-size: 1rem;
     text-decoration: none;
     transition: all ease-in-out 250ms;
+    border: none;
     /* border: white; */
     /* box-shadow: 0 0 2px 0 purple; */
     /* border: .5px solid purple; */
