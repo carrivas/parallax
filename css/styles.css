@@ -147,8 +147,8 @@ p {
     background: white;
     color:purple;
     border: .5px solid purple;
-    margin-bottom: .5cm;
-    margin-bottom: .5cm;
+    margin: .5cm;
+    /* margin-bottom: .5cm; */
     /* font-weight: bold; */
     font-size: 1rem;
     transition: all ease-in-out 250ms;
@@ -166,7 +166,7 @@ p {
     background: none;
     color:purple;
     /* margin-top: .5cm; */
-    margin-bottom: .5cm;
+    margin: .5cm;
     /* margin-left: .5cm; */
     /* font-weight: bold; */
     font-size: 1rem;
@@ -323,6 +323,7 @@ nav a:focus {
 }
 
 .port-item {
+    /* position: relative; */
     padding-top: 1px;
     /* margin-top: .5cm; */
     margin-bottom: 2cm;
@@ -363,9 +364,11 @@ nav a:focus {
 }
 
 .prjbuttons {
+    /* position: absolute; */
     justify-content: center;
     margin-top:.2cm;
-    margin-left:753px;
+    margin-right: -50%;
+    /* right: 10cm; */
 }
 
 .description {
@@ -446,11 +449,11 @@ footer {
     display: none; 
 } */
 
-@media screen and (min-width: 1441px) {
+/* @media screen and (min-width: 1441px) {
 .prjbuttons {
     margin-left:1200px;
 }
-}
+} */
 
 @media screen and (max-width: 1024px) {
 
