@@ -107,11 +107,15 @@ p {
     margin-bottom: 5.1cm;
 }
 
-/* i {
-    padding-left: .5cm;
-} */
-
-/* buttons */
+.nav-links {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .5em 1.75em;
+    border-radius: 24px;
+    transition: all ease-in-out 250ms;
+    font-weight: 500;
+}
 
 .button {
     display: inline-block;
@@ -123,8 +127,54 @@ p {
     
 }
 
+.button-hire {
+    background: none;
+    color:purple;
+    border: .5px solid purple;
+    margin: .5cm;
+    /* margin-bottom: .5cm; */
+    /* font-weight: bold; */
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all ease-in-out 250ms;
+}
+
+.button-hire:hover,
+.button-hire:focus {
+    background-color: #011DF3;
+    color: white;
+    border: .5px solid #011DF3;
+    text-decoration: none;
+}
+
+.button-res {
+    background: none;
+    color:purple;
+    /* margin-top: .5cm; */
+    margin: .5cm;
+    /* margin-left: .5cm; */
+    /* font-weight: bold; */
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all ease-in-out 250ms;
+    border: none;
+    /* border: white; */
+    /* box-shadow: 0 0 2px 0 purple; */
+    /* border: .5px solid purple; */
+}
+
+.button-res:hover,
+.button-res:focus {
+    color:#011DF3;
+    /* border: .5px solid purple; */
+    /* box-shadow: 0 0 2px 0 lightblue; */
+    text-decoration: underline;
+    /* background-color: purple; */
+}
+
 .button-accent {
-    background-color: white;
+    background-color: none;
     color: purple;
     border: purple;
     /* box-shadow: 0 0 24px 0 purple; */
@@ -144,12 +194,10 @@ p {
 }
 
 .button-prj {
-    background: white;
+    background: none;
     color:purple;
     border: .5px solid purple;
     margin: .5cm;
-    /* margin-bottom: .5cm; */
-    /* font-weight: bold; */
     font-size: 1rem;
     transition: all ease-in-out 250ms;
 }
@@ -165,17 +213,11 @@ p {
 .button-pres {
     background: none;
     color:purple;
-    /* margin-top: .5cm; */
     margin: .5cm;
-    /* margin-left: .5cm; */
-    /* font-weight: bold; */
     font-size: 1rem;
     text-decoration: none;
     transition: all ease-in-out 250ms;
     border: none;
-    /* border: white; */
-    /* box-shadow: 0 0 2px 0 purple; */
-    /* border: .5px solid purple; */
 }
 
 .button-pres:hover,
@@ -187,15 +229,7 @@ p {
     /* background-color: purple; */
 }
 
-.nav-links {
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: .5em 1.75em;
-    border-radius: 24px;
-    transition: all ease-in-out 250ms;
-    font-weight: 500;
-}
+
 
 /* Parallax
 ---------------*/
@@ -213,7 +247,6 @@ header {
     position: absolute;
     left: 0;
     right: 0;   
-
 }
 
 nav ul {
@@ -224,7 +257,6 @@ nav ul {
     padding-top: .1cm;
     padding-bottom: .5cm;
     list-style: none;
-    
 }
 
 nav li {
@@ -273,15 +305,38 @@ nav a:focus {
     border-bottom: 2px solid white;
 } */
 
+.home-hero {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#about {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding-top: 6cm;
+    padding-bottom: 4cm;
+    font-size: 18pt;
+    /* margin: 0 auto; */
+}
+
+.ctabuttons {
+    /* position: absolute; */
+    justify-content: center;
+    /* margin-top:.2cm; */
+    /* padding-top:.2cm;
+    padding-bottom:.4cm; */
+    /* right: 10cm; */
+}
+
 #workflow {
     border-top: 2px solid white;
-    padding-top: 4.5cm;
+    /* padding-top: 4.5cm; */
     /* padding-bottom: 3cm; */
     /* border-bottom: 2px solid white; */
 }
 
 /* .my-workflow2 {
-    padding-top: 0;
+    padding: 1cm;
 } */
 
 .box {
@@ -306,7 +361,7 @@ nav a:focus {
 
 .portfolio {
     clear: both;
-    border-top: 2px solid white;
+    /* border-top: 2px solid white; */
 /*    background-color: blueviolet; */
 /*    opacity: .2;  */
     top: 0em;
@@ -388,7 +443,7 @@ nav a:focus {
 
 .contact {
     width: 35%;
-    color: white;
+    /* color: white; */
     margin: 0 auto; 
     border-top: 2px solid white;
     border-bottom: 2px solid white;
@@ -417,7 +472,7 @@ footer {
     display: inline-block;
     /* margin-top: .5cm; */
     padding-top: 1cm;
-    padding-bottom: 1.3cm;
+    padding-bottom: .9cm;
     /* margin-bottom: .5cm; */
     transition: all ease-in-out 250ms;
 }
