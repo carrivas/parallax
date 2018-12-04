@@ -368,7 +368,8 @@ nav a:focus {
     /* position: absolute; */
     justify-content: center;
     /* margin-top:.2cm; */
-    padding:.5cm;
+    padding-top:.2cm;
+    padding-bottom:.4cm;
     margin-right: -50%;
     /* right: 10cm; */
 }
