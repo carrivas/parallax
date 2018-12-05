@@ -316,8 +316,8 @@ nav a:focus {
 #about {
     border-top: 2px solid white;
     border-bottom: 2px solid white;
-    padding-top: 6cm;
-    padding-bottom: 4cm;
+    padding-top: 4.75cm;
+    padding-bottom: 2cm;
     font-size: 18pt;
     /* margin: 0 auto; */
 }
