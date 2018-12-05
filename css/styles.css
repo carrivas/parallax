@@ -319,7 +319,6 @@ nav a:focus {
     padding-top: 5.5cm;
     padding-bottom: 2.5cm;
     font-size: 18pt;
-    /* margin: 0 auto; */
 }
 
 .ctabuttons {
@@ -468,8 +467,7 @@ nav a:focus {
     background-color: lightsteelblue;
     /* background-image: linear-gradient(to bottom, lightsteelblue , white); */
 }
-     
-
+    
 footer {
     left: 0;
     right: 0;   
@@ -510,17 +508,40 @@ footer {
     display: none; 
 } */
 
-/* @media screen and (min-width: 1441px) {
-.prjbuttons {
-    margin-left:1200px;
+@media screen and (max-width: 1445px) {
+body { 
+    padding-top: 5.5cm;
 }
-} */
-/* -----------macbook air----------- */
+
+.quote {
+    margin-bottom: 5cm;
+}
+
+#about {
+    padding-top: 5cm;
+    padding-bottom: 2cm;
+}
+
+.portfolio {
+    padding-top: 3cm;
+}
+
+.contact {
+    padding-top: 3.1cm;
+}
+
+footer {
+    padding-top: 1cm;
+    padding-bottom: 1.9cm;
+}
+
+}
+
+/* -----------ipad----------- */
 @media screen and (max-width: 1024px) {
 .nav-links {
     padding: 0;
 }
-
 
 .title {
     font-size: 18pt;
