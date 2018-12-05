@@ -129,8 +129,7 @@ p {
 
 .button-hire {
     background: none;
-    color:purple;
-    border: 2px solid purple;
+    color:hotpinkhotpinkpurple;
     margin: .5cm;
     /* margin-bottom: .5cm; */
     /* font-weight: bold; */
@@ -149,7 +148,7 @@ p {
 
 .button-res {
     background: none;
-    color:purple;
+    color:hotpink;
     /* margin-top: .5cm; */
     margin: .5cm;
     /* margin-left: .5cm; */
@@ -175,8 +174,8 @@ p {
 
 .button-accent {
     background-color: none;
-    color: purple;
-    border: purple;
+    color: hotpink;
+    border: hotpink;
     /* box-shadow: 0 0 24px 0 purple; */
     margin-top: 2em;
     margin-bottom: 2em;
