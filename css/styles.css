@@ -130,7 +130,7 @@ p {
 .button-hire {
     background: none;
     color:purple;
-    border: .5px solid purple;
+    border: 2px solid purple;
     margin: .5cm;
     /* margin-bottom: .5cm; */
     /* font-weight: bold; */
@@ -143,7 +143,7 @@ p {
 .button-hire:focus {
     background-color: #011DF3;
     color: white;
-    border: .5px solid #011DF3;
+    border: 2px solid #011DF3;
     text-decoration: none;
 }
 
@@ -195,10 +195,11 @@ p {
 
 .button-prj {
     background: none;
-    color:purple;
-    border: .5px solid purple;
+    color:hotpink;
+    border: 2px solid hotpink;
     margin: .5cm;
     font-size: 1rem;
+    font-weight: bold;
     transition: all ease-in-out 250ms;
 }
 
@@ -206,15 +207,16 @@ p {
 .button-prj:focus {
     background-color: #011DF3;
     color: white;
-    border: .5px solid #011DF3;
+    border: 2px solid #011DF3;
     text-decoration: none;
 }
 
 .button-pres {
     background: none;
-    color:purple;
+    color:hotpink;
     margin: .5cm;
     font-size: 1rem;
+    font-weight: bold;
     text-decoration: none;
     transition: all ease-in-out 250ms;
     border: none;
@@ -276,7 +278,7 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-    color: purple;
+    color: hotpink;
     text-decoration: none;
 }
 
@@ -473,7 +475,7 @@ footer {
     /* margin-top: .5cm; */
     padding-top: 1cm;
     padding-bottom: .9cm;
-    /* margin-bottom: .5cm; */
+    margin-bottom: .7cm;
     transition: all ease-in-out 250ms;
 }
 
