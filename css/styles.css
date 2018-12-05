@@ -130,11 +130,9 @@ p {
 
 .button-hire {
     background: none;
-    color:rgb(125, 0, 129);
-    border: 2px solid rgb(125, 0, 129);
+    color:white;
+    border: 2px solid #011DF3;
     margin: .5cm;
-    /* margin-bottom: .5cm; */
-    /* font-weight: bold; */
     font-size: 1rem;
     font-weight: bold;
     transition: all ease-in-out 250ms;
@@ -142,32 +140,27 @@ p {
 
 .button-hire:hover,
 .button-hire:focus {
-    background-color: #011DF3;
-    color: white;
-    border: 2px solid #011DF3;
+    background-color: white;
+    color: rgb(125, 0, 129);
+    border: 2px solid white;
+    box-shadow: 0 0 2px 0 white;
     text-decoration: none;
 }
 
 .button-res {
     background: none;
-    color:rgb(125, 0, 129);
-    /* margin-top: .5cm; */
+    color:#011DF3;
     margin: .5cm;
-    /* margin-left: .5cm; */
-    /* font-weight: bold; */
     font-size: 1rem;
     font-weight: bold;
     text-decoration: none;
     transition: all ease-in-out 250ms;
     border: none;
-    /* border: white; */
-    /* box-shadow: 0 0 2px 0 purple; */
-    /* border: .5px solid purple; */
 }
 
 .button-res:hover,
 .button-res:focus {
-    color:#011DF3;
+    color:rgb(125, 0, 129);
     /* border: .5px solid purple; */
     /* box-shadow: 0 0 2px 0 lightblue; */
     text-decoration: underline;
@@ -196,8 +189,8 @@ p {
 
 .button-prj {
     background: none;
-    color:rgb(164, 0, 170);
-    border: 2px solid rgb(164, 0, 170);
+    color:#011DF3;
+    border: 2px solid #011DF3;
     margin: .5cm;
     font-size: 1rem;
     font-weight: bold;
@@ -206,15 +199,16 @@ p {
 
 .button-prj:hover,
 .button-prj:focus {
-    background-color: #011DF3;
-    color: white;
-    border: 2px solid #011DF3;
+    background-color:white;
+    color: rgb(164, 0, 170);
+    border: 2px solid rgb(164, 0, 170);
     text-decoration: none;
+    box-shadow: 0 0 2px 0 rgb(164, 0, 170);
 }
 
 .button-pres {
     background: none;
-    color:rgb(164, 0, 170);
+    color:#011DF3;
     margin: .5cm;
     font-size: 1rem;
     font-weight: bold;
@@ -225,7 +219,7 @@ p {
 
 .button-pres:hover,
 .button-pres:focus {
-    color:#011DF3;
+    color:rgb(164, 0, 170);
     /* border: .5px solid purple; */
     /* box-shadow: 0 0 2px 0 lightblue; */
     text-decoration: underline;
