@@ -316,8 +316,8 @@ nav a:focus {
 #about {
     border-top: 2px solid white;
     border-bottom: 2px solid white;
-    padding-top: 4.75cm;
-    padding-bottom: 2cm;
+    padding-top: 5cm;
+    padding-bottom: 2.5cm;
     font-size: 18pt;
     /* margin: 0 auto; */
 }
@@ -476,7 +476,7 @@ footer {
     display: inline-block;
     /* margin-top: .5cm; */
     padding-top: 1cm;
-    padding-bottom: 1.3cm;
+    padding-bottom: 2.3cm;
     transition: all ease-in-out 250ms;
 }
 
@@ -488,9 +488,7 @@ footer {
 
 }
 
-.linkedinpark {
 
-}
 /* .logo {
     background-image: url(../img/LogoIcon.png);
      position: center; 
@@ -517,16 +515,12 @@ footer {
     margin-left:1200px;
 }
 } */
-
+/* -----------macbook air----------- */
 @media screen and (max-width: 1024px) {
-
 .nav-links {
     padding: 0;
 }
 
-.prjbuttons {
-    margin-left:430px;
-}
 
 .title {
     font-size: 18pt;
@@ -534,12 +528,10 @@ footer {
 .contact {
     width: 50%;
 }
+}
 
-}
+/* ---------mobile----------- */
 @media screen and (max-width: 600px) {
-.prjbuttons {
-    margin: 0px;
-}
 
 .title {
     font-size: 16pt;
