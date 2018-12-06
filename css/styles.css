@@ -130,7 +130,7 @@ p {
 
 .button-hire {
     background: none;
-    color:rgb(1, 187, 243);
+    color:white;
     border: 2px solid rgb(1, 187, 243);
     margin: .5cm;
     font-size: 1rem;
@@ -322,7 +322,7 @@ nav a:focus {
     /* padding-top:.2cm;
     padding-bottom:.4cm; */
     /* right: 10cm; */
-    margin-right: 2.5%;
+    margin-right: 5%;
 }
 
 #workflow {
@@ -504,11 +504,11 @@ footer {
 
 @media screen and (max-width: 1445px) {
 body { 
-    padding-top: 6cm;
+    padding-top: 5.5cm;
 }
 
 .quote {
-    margin-bottom: 4.5cm;
+    margin-bottom: 5cm;
 }
 
 #about {
