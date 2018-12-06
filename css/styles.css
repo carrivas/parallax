@@ -559,8 +559,12 @@ footer {
     width: 80%;
 }
 
-/* @media screen and (min-width:1200px) {
-    .prjbuttons {
-        margin-left:34cm;
-    }*/
+@media screen and (min-width:1280px) {
+    body { 
+        padding-top: 7cm;
+    }
+    
+    .quote {
+        margin-bottom: 6.5cm;
+    }
 } 
